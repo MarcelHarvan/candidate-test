@@ -4,11 +4,11 @@ import { Component } from "@angular/core";
     selector: 'app-rugs',
     template: `
         <div class="row">
-            <app-message-input></app-message-input>
+            <app-rug-input></app-rug-input>
         </div>
         <hr>
         <div class="row">
-            <app-message-list></app-message-list>
+            <app-rug-list></app-rug-list>
         </div>
     `
 })

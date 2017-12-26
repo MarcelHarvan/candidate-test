@@ -7,6 +7,12 @@ import { RugService } from "./rug.service";
     selector: 'app-rug',
     templateUrl: './rug.component.html',
     styles: [`
+        .author {
+            display: inline-block;
+            font-style: italic;
+            font-size: 12px;
+            width: 80%;
+        }
         .config {
             display: inline-block;
             text-align: right;
@@ -15,7 +21,7 @@ import { RugService } from "./rug.service";
         }
     `]
 })
-export class MessageComponent {
+export class RugComponent {
     @Input() rug: Rug;
     @Output() editClicked = new EventEmitter<string>();
 

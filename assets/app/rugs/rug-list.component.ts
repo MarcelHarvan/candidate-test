@@ -7,10 +7,14 @@ import { RugService } from "./rug.service";
     selector: 'app-rug-list',
     template: `
         <div class="col-md-8 col-md-offset-2">
-            <app-rug
-                    [rug]="rug"
-                    (editClicked)="rug.content = $event"
-                    *ngFor="let rug of rugs"></app-rug>
+            <!--<app-rug-->
+                <!--[rug]="rug"-->
+                <!--(editClicked)="rug.content = $event"-->
+                <!--*ngFor="let rug of rugs"-->
+            <!---->
+            <!--&gt;-->
+            <!--</app-rug>-->
+           
         </div>
     `
 })

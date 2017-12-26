@@ -1,3 +1,5 @@
 .idea
+npm-debug.log
+/public/js
 # Dependency directory
 node_modules
